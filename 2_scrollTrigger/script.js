@@ -46,3 +46,15 @@ gsap.from("#page3 h2", {
     scrub: 1,
   },
 });
+// whenver we are doing pin a container and want animation on child
+// , always trigger the parent container
+gsap.to("#page4 h1", {
+  transform: "translateX(-159%)",
+  scrollTrigger: {
+    trigger: "#page4",
+    start: "top 0%",
+    end: "top -100%",
+    scrub: 2,
+    pin: true,
+  },
+});
