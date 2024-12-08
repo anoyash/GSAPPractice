@@ -46,34 +46,58 @@
 //   stagger: 0.5,
 // });
 
-var tl = gsap.timeline();
+// var tl = gsap.timeline();
 
-tl.to("#box1", {
-  x: 1000,
-  y: 100,
-  duration: 2,
-  delay: 2,
-  rotate: 360,
-  backgroundColor: "red",
-  repeat: -1,
-  yoyo: true,
-});
+// tl.to("#box1", {
+//   x: 1000,
+//   y: 100,
+//   duration: 2,
+//   delay: 2,
+//   rotate: 360,
+//   backgroundColor: "red",
+//   repeat: -1,
+//   yoyo: true,
+// });
 
-tl.to("#box2", {
-  x: 1000,
-  y: -100,
-  duration: 2,
-  rotate: 360,
-  backgroundColor: "blue",
-  repeat: -1,
-  yoyo: true,
-});
+// tl.to("#box2", {
+//   x: 1000,
+//   y: -100,
+//   duration: 2,
+//   rotate: 360,
+//   backgroundColor: "blue",
+//   repeat: -1,
+//   yoyo: true,
+// });
 
-tl.from("h1", {
-  y: 50,
+// tl.from("h1", {
+//   y: 50,
+//   opacity: 0,
+//   duration: 1,
+//   stagger: 0.5,
+//   repeat: -1,
+//   yoyo: true,
+// });
+
+/* Mini GSAP animation Project */
+
+var navTimeline = gsap.timeline();
+
+navTimeline.from(".logo", {
+  y: -20,
   opacity: 0,
-  duration: 1,
-  stagger: 0.5,
-  repeat: -1,
-  yoyo: true,
+  duration: 0.7,
+  delay: 0.5,
+});
+
+navTimeline.from("#options h4", {
+  y: -20,
+  opacity: 0,
+  duration: 0.4,
+  stagger: 1,
+});
+
+navTimeline.from("h1", {
+  y: -20,
+  opacity: 0,
+  duration: 0.7,
 });
