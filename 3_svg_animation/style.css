@@ -12,7 +12,8 @@ body {
 }
 
 #string {
-  background-color: rgb(105, 118, 118);
+  margin-top: 10vh;
+  background-color: grey;
 }
 
 svg {

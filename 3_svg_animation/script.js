@@ -24,5 +24,7 @@ myString.addEventListener("mouseleave", (dets) => {
   gsap.to("svg path", {
     // here we are going to change the attribute of the HTML element using attr key
     attr: { d: initialPath },
+    duration: 1.5,
+    ease: "elastic.out(1,0.2)",
   });
 });
