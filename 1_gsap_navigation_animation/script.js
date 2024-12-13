@@ -14,6 +14,7 @@
 11. repeat property
     11.1 : repeat -1 ( it will run infinite times)
     11.2 : repeat  1 ( animation will run the 2 times )   
+12. gsap easing 
 */
 // gsap.to("#box1", {
 //   x: 1000,

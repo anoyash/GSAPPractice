@@ -8,4 +8,14 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: #090101;
+}
+
+#string {
+  background-color: rgb(105, 118, 118);
+}
+
+svg {
+  height: 50vh;
+  width: 100%;
 }
