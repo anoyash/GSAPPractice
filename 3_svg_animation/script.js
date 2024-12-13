@@ -6,7 +6,7 @@ var myString = document.querySelector("#string");
 
 myString.addEventListener("mousemove", (dets) => {
   console.log("entered...");
-  path = `M 10 300 Q 950 ${dets.y} 1900 300`;
+  path = `M 10 300 Q ${dets.x} ${dets.y} 1900 300`;
 
   console.log(path);
 

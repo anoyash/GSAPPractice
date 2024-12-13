@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #050404;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cursor {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  position: fixed;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 10px;
+  z-index: 8;
+}
+
+#myImage {
+  height: 60%;
+  width: 60%;
+  position: relative;
+}
+
+#myImage div {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(164, 151, 151, 0.017);
+  position: absolute;
+  z-index: 9;
+}
+
+#myImage img {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
