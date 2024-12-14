@@ -21,4 +21,10 @@ body {
 
 h1 {
   font-size: 150px;
+  overflow-y: hidden; /* remove this and see the change in effect of animation*/
+}
+
+h1 span {
+  display: inline-block;
+  /* so that gsap works on span element*/
 }
