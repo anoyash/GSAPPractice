@@ -20,14 +20,14 @@ body {
 }
 
 #nav {
-  padding: 30px 30px;
+  padding: 30px 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 #nav i {
-  scale: 2;
+  scale: 3;
   color: black;
   cursor: pointer;
 }
@@ -47,16 +47,16 @@ body {
 }
 
 #menu-items h4 {
-  padding: 5px;
+  padding-top: 10px;
   opacity: 0;
-  font-size: 30px;
+  font-size: 70px;
   margin-left: 15%;
 }
 
 #menu-items i {
-  scale: 1.5;
-  top: 5%;
-  right: 5%;
+  scale: 3;
+  top: 30px;
+  right: 90px;
   cursor: pointer;
   padding: 2px;
   position: absolute;
